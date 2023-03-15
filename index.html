@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+<section id="singup" class="singup">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <div class="container">
+                <a class="navbar-brand " href="#"> <img class="w-100" src="img/bg.jpg" alt=""></a>
+            </div>
+        </nav>
+        </header>
+        <div class="container form w-75 p-3">
+            <h4 class="w-50 m-auto text-center text-primary fw-bolder">sing up here</h4>
+            <input id="singupname" class="form-control mt-2 "  required type="text" placeholder="Enter Your Name">
+            <input id="singuemail" class="form-control mt-2 " required  type="text" placeholder="Enter Your Email">
+            <input id="singuppass" class="form-control mt-2 "  required type="text" placeholder="Enter Your pass">
+            <p id="emptyMsg" class="alert d-none text-danger-emphasis mt-2 fw-bold w-50 m-auto text-center" >All inputs is required</p>
+            <button id="singupBtn" class="btn btn-warning mt-3  w-100">sing up</button>
+            <p id="logind" class="text-white fw-bolder w-50 m-auto text-center">Ihave an account <a href="#">login</a></p>
+
+        </div>
+</section>
+<section id="login" class="singin">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <div class="container">
+                <a class="navbar-brand " href="#"> <img class="w-100" src="img/bg.jpg" alt=""></a>
+            </div>
+        </nav>
+        </header>
+        <div class="container form w-75 p-3">
+            <h4 class="w-50 m-auto text-center text-primary fw-bolder">login now</h4>
+            <input id="singinemail" class="form-control mt-2 " required  type="text" placeholder="Enter Your Email">
+            <input id="singinpass" class="form-control mt-2 "  required type="text" placeholder="Enter Your pass">
+            <p id="emptymsg" class=" d-none text-danger-emphasis mt-2 fw-bold w-50 m-auto text-center" >All inputs is required</p>
+            <p id="notregist" class=" d-none text-danger-emphasis mt-2 fw-bold w-50 m-auto text-center" >this account not registed</p>
+            <button id="loginBtn" class="btn btn-warning fw-bold mt-3  w-100">Login</button>
+            <p id="singupd" class="text-white fw-bolder w-50 m-auto text-center">I don't have account <a href="#singup">sing up</a></p>
+        </div>
+</section>
+    <section id="home" class="home">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light  ">
+                <div class="container">
+                    <a class="navbar-brand " href="#"> <img class="w-100" src="img/bg.jpg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav   fw-bold fs-5 m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a data-code="Shooter" class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a data-code="Shooter" class="nav-link text-warning" href="#">Shooter</a>
+                        </li>
+                        <li class="nav-item">
+                        <a data-code="mmorpg" class="nav-link text-warning" href="#">mmorpg</a>
+                        </li>
+                        <li class="nav-item">
+                        <a data-code="superhero" class="nav-link text-warning" href="#">superhero</a>
+                        </li>
+                        <li class="nav-item">
+                        <a data-code="sailing" class="nav-link text-warning" href="#">sailing</a>
+                        </li>
+                        <li class="nav-item">
+                        <a data-code="pixel" class="nav-link text-warning" href="#">pixel</a>
+                        </li>
+                        <li class="nav-item">
+                        <a data-code="permadeath" class="nav-link text-warning" href="#">permadeath</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>  
+            </nav>
+            </header>
+            
+            <p id="p-name" class=" w-50 mt-2 m-auto rounded-3 py-2  fa-beat-fade bg-primary text-center  fw-bold m-3"></p>
+        <div class="container mt-5">
+        
+            <h4 class="fa-bounce mb-3 text-center w-50 m-auto text-white fw-bold text-shadow">Choose your Game Now!</h4>
+            <div id="games" class="row gy-3">
+                <div class="col-md-4">
+                    <div class="item">
+                        <img  class="w-100" src="" alt="">
+                        <h2>Title</h2>
+                        <p>des</p>
+                        <a class="btn btn-danger mb-3" href="">Go to Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="loading">
+            <div class="loader"></div>
+        </div>
+    </section>
+
+
+
+<script src="js/bootstrap.bundle.js" ></script>
+<script src="js/jquery-3.6.3.min.js" ></script>
+   <script src="js/index.js" ></script>
+</body>
+</html>
